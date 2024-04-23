@@ -1,1 +1,8 @@
-hello
+1. What will happen at line 12 and why?  This line log the value of the vaiable `i` to the console.
+2. What will happen at line 13 and why?  This line outputs the function definition to the console which means that the console will display the textual form of the `discountPrtices` function itself.
+3. What will happen at line 14 and why? Line 14 logs `150` to the console. This is because it is the final computed and rounded discounted price from the last iteration of the loop.
+4. What will this function return? Give a brief explanation why. The `discountPrices` function returns an array `[50.00, 100.00, 150,00]` for input `[100, 200, 300]` with a discount rate of `0.5` because it calculates the discounted price of each item by halving it(due to the 50% discount), then rounding to two decimal places, and adds each result to an output array.
+5. What will happen at line 12 and why? This line returns a ReferenceError: i is not defined. This error is due to the vaiable `i` being declared with `let` within the `for` loop. This means that a variable declared `let` in a block is only accessible wihtin that block so in here variable `i` goes out of scope maiking it inaccessible to any code outside the loop block.
+6. What will happen at line 13 and why? This line returns a ReferenceError: discountedPrice is not defined. This error occurs because the vaiable `discountedPrice` is declared with `let` within the `for` loop which means it has block scope, so it is not accessible outside of that loop block. Attempting to access it after the loop results in it being undefined in that context.
+7. What will happen at line 14 and why? This line 14 will scuccessfully execute without any errors because the variable `finalPrice` is declared with `let` at the beginning of the function, not inside the `for` loop. This placement makes `finalPrice` accessible throughout the entire function.
+8. What will this function return? The dis
