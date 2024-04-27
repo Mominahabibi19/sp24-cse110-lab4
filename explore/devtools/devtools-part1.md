@@ -1,1 +1,29 @@
-hello
+1. What is the name of the new json file? <br>
+   citylots.json
+
+2. Which file initiated the download of the new file?<br>
+   expose.js:4
+
+3. What is its file size? <br>
+   779 kB
+
+
+4. How long did it take to download? <br>
+   608 ms
+   
+5. What was your User-Agent for the browser that made the request? <br>
+   https://cse110-fa22.github.io/lab4_Hosted/citylots.json
+
+6. In the response header, what type of server did it come from? <br>
+   GitHub.com
+
+7. When was the file last modified? <br>
+   Thu, 15 Sep 2022 22:44:30 GMT
+
+8. What was the Content-Type of the file? <br>
+   application/json; charset=utf-8
+
+Navigate to the Initiator tab now and answer the last question
+
+9. Which function inside the initiating file made the request? <br>
+    fetchData @ expose.js:4
