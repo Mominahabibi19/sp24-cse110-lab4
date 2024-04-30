@@ -12,7 +12,7 @@
    608 ms
    
 5. What was your User-Agent for the browser that made the request? <br>
-   https://cse110-fa22.github.io/lab4_Hosted/citylots.json
+   Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 
 6. In the response header, what type of server did it come from? <br>
    GitHub.com
